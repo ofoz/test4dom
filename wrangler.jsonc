@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json.schemastore.org/wrangler",
+  "name": "your-project-name",
+  "main": "src/index.js", // 如果你没有 Worker 脚本，可以留空或删除此行
+  "compatibility_date": "2026-03-27",
+  "assets": {
+    "directory": "./dist", // 修改这里为你实际的构建输出目录
+    "binding": "ASSETS"
+  }
+}
